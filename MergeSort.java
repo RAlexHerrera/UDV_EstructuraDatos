@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
+
 public class MergeSort {
     public static void ordenar(List<Integer> lista) {
         if (lista.size() < 2) {

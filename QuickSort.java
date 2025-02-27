@@ -1,5 +1,6 @@
 import java.util.List;
 
+
 public class QuickSort {
     public static void ordenar(List<Integer> lista, int inicio, int fin) {
         if (inicio < fin) {

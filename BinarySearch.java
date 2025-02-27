@@ -1,4 +1,5 @@
 import java.util.List;
+
 public class BinarySearch {
     public static int buscar(List<Integer> lista, int objetivo) {
         int inicio = 0;

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.ArrayList;
 
+
 public class CargarDatosCSV {
 
     public static List<Integer> cargarDesdeCSV(String archivo) {
