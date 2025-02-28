@@ -1,3 +1,3 @@
 # UDV_EstructuraDatos
 Parcial 1, Estructura de datos
-Todo el codigo se encuentra en la rama Master
+Todo el codigo se encuentra en la rama Master en caso de no aparecer aqui.
