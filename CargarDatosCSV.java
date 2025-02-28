@@ -5,7 +5,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CargarDatosCSV {
-
+    /**
+     * Método para cargar datos numéricos desde un archivo CSV.
+     * Cada línea del archivo debe contener un número entero.
+     *
+     * @param archivo Ruta del archivo CSV.
+     * @return Lista de enteros con los datos cargados.
+     */
     public static List<Integer> cargarDesdeCSV(String archivo) {
         List<Integer> lista = new ArrayList<>();
         
@@ -24,7 +30,10 @@ public class CargarDatosCSV {
         
         return lista;
     }
-
+    /**
+     * Método para solicitar al usuario la ruta de un archivo CSV y cargar sus datos.
+     * Se almacena la lista de números en la variable global de ProyectoOrdenamiento.
+     */
     public static void opcionCargarDatos() {
         System.out.print("Ingrese la ruta del archivo CSV: ");
         String archivo = new java.util.Scanner(System.in).nextLine();
